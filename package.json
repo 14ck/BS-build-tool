@@ -4,7 +4,7 @@
   "description": "A build tool for copying and renaming HTML files",
   "main": "index.js",
   "bin": {
-    "bs-build": "./index.js"
+    "bs-build": "index.js"
   },
   "config": {
     "filename": "index.html",
@@ -14,7 +14,20 @@
     "bs-build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["build", "html", "copy", "rename"],
+  "keywords": [
+    "build",
+    "html",
+    "copy",
+    "rename"
+  ],
   "author": "Jackb",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14ck/BS-build-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/14ck/BS-build-tool/issues"
+  },
+  "homepage": "https://github.com/14ck/BS-build-tool#readme"
 }
