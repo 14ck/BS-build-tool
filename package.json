@@ -1,6 +1,6 @@
 {
   "name": "bs-build-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A build tool for copying and renaming HTML files",
   "main": "index.js",
   "bin": {
